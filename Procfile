@@ -1,0 +1,1 @@
+web: gunicorn bankbranchapi.wsgi
