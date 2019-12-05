@@ -17,7 +17,7 @@ import dj_database_url
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 #db_from_env = dj_database_url.config(conn_max_age=3600)
-#   DATABASES[‘default’].update(db_from_env)
+#DATABASES[‘default’].update(db_from_env)
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
@@ -84,7 +84,7 @@ DATABASES = {
         'NAME': 'postgres',
         'USER': 'postgres',
         'PASSWORD': 'root',
-        'HOST': '',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }
