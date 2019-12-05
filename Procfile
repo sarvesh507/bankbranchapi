@@ -1,1 +1,1 @@
-web: gunicorn bankbranchapi.wsgi
+web: gunicorn bankbranchapi.wsgi --log-file -
