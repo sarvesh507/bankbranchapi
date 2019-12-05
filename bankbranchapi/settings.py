@@ -25,7 +25,7 @@ SECRET_KEY = 'mr*&%k##)uu9wz4s^fnvtv64s-0=43uqf7c^&khit6x+7fo3kg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['bankbranchapi.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['bankbranchapi.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'bankbranchapi.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres',
         'USER': 'postgres',
         'PASSWORD': 'root',
